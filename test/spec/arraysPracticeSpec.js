@@ -209,7 +209,7 @@ describe('arraysPractice', function () {
 			//could be passed numbers as numbers or strings
 			var arr = [1, '2', 3];
 			var expected = [11, 12, 13];
-			expect(addTen(arr)).toEqual(expected);	
+			expect(addTen(arr)).toEqual(expected);
 		})
 	})
 	describe('longer', function () {
